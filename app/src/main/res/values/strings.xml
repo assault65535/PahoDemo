@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PahoDemo</string>
+    <string name="send">SEND</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="tell_us_your_name">Tell us your name</string>
+    <string name="input_the_topic_you_interested_in">Input the topic you interested in</string>
+    <string name="input_your_username">Input your username</string>
+    <string name="the_broker_host">The broker host</string>
+    <string name="the_database_host">The database host</string>
+</resources>

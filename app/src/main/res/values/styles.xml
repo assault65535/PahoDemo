@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/deepSkyBlue</item>
+        <item name="colorPrimaryDark">@color/deepSkyBlue</item>
+        <item name="colorAccent">@color/brightGreen</item>
+        <item name="android:actionBarStyle">@style/myActionBar</item>
+    </style>
+
+    <style name="myActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/deepSkyBlue</item>
+        <item name="android:backgroundStacked">@color/deepSkyBlue</item>
+        <item name="android:titleTextStyle">@style/actionBarTitle</item> <!--设置titleTextStyle-->
+    </style>
+
+    <style name="actionBarTitle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

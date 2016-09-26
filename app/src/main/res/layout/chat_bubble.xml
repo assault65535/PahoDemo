@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <TextView
+            android:id="@+id/author"
+            android:text="Tnecesoc"
+            android:textSize="16sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textStyle="bold"
+            android:layout_below="@+id/publish_time" android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"/>
+    <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bubble"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/white"
+            android:text="Hello world!"
+            android:textSize="16sp"
+            android:layout_below="@+id/author" android:layout_alignParentLeft="true" android:layout_marginLeft="16dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016-9-8 16:27:11"
+            android:visibility="invisible"
+            android:id="@+id/publish_time"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
