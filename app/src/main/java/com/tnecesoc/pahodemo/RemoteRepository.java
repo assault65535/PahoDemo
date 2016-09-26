@@ -18,10 +18,6 @@ import java.util.*;
  */
 public class RemoteRepository {
 
-//    public static final String SERVER_URL = "http://10.52.26.33:8080";
-
-//    private static final String SERVER_URL = "http://172.22.26.0:8080";
-
     private static String serverUrl;
 
     public static void setServerUrl(String host) {

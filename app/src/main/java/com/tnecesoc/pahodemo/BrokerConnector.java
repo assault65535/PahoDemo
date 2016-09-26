@@ -12,10 +12,6 @@ import org.eclipse.paho.client.mqttv3.*;
  */
 public class BrokerConnector implements IBrokerConnector {
 
-//    private static final String BASE_URL = "tcp://10.52.26.33:1883";
-
-//    private static final String BASE_URL = "tcp://172.22.26.0:1883";
-
     private static final String CLIENT_ID = "poi";
 
     private static final String SUBSCRIBE_TOPIC = "lo";
