@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class RepositoryController {
 
-    public static List<MessageBean> getLocalRecords(Context context, String topic) {
+    public static List<MessageBean> getLocalRecords(Context context) {
         LocalRepository localMessages = new LocalRepository(context);
 
         return localMessages.findMessages();
